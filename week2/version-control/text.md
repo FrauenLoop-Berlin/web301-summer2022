@@ -36,9 +36,15 @@ Before creating a new branch you pull changes from master, make sure you are up 
 
 ### George MacMoustasche
 
-### Natalie Sakina Mbatha
+### Ira Karpova
 
+### Jovana Kovacevic
+Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
+
+### Natalie Sakina Mbatha
 I love Manchester United football club!!!
+  
+### Niloo
 
 ### Paloma Oliveira
 
