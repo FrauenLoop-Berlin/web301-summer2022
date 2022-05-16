@@ -36,6 +36,18 @@ Before creating a new branch you pull changes from master, make sure you are up 
 
 ### Sevasti
 
-### Paloma Oliveira
+### George MacMoustasche
 
+### Ira Karpova
+Ira really wishes to become a developer in a nearest future.
+
+### Jovana Kovacevic
+Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
+
+### Natalie Sakina Mbatha
+I love Manchester United football club!!!
+  
+### Niloo
+
+### Paloma Oliveira
 Paloma is a proud mother of George, the cat.Her favorite color is yellow.
