@@ -39,11 +39,13 @@ Before creating a new branch you pull changes from master, make sure you are up 
 ### Ira Karpova
 
 ### Jovana Kovacevic
-
 Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
 
 ### Natalie Sakina Mbatha
+I love Manchester United football club!!!
+  
 ### Niloo
+
 ### Paloma Oliveira
 
 Paloma is a proud mother of George, the cat.Her favorite color is yellow.
