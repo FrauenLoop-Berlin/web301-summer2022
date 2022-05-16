@@ -15,7 +15,7 @@
 
 4. working with branches
 - [] git branch => tells you which branches you have access to
-- [] git fetch => gives you access to other branches
+- [] git fetch => gives you access to other branches by retrieving the latest meta-data info from the original
 - [] git checkout -b <new branch name> => create a new branch
 - [] git branch -D <branch you want to delete> => deletes a branch
 
