@@ -36,6 +36,8 @@ Before creating a new branch you pull changes from master, make sure you are up 
 
 ### George MacMoustasche
 
+### Jovana Kovacevic
+
 ### Ira Karpova
 
 ### Natalie Sakina Mbatha
