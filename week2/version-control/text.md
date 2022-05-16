@@ -29,6 +29,7 @@ You will do that in 2 stages: first you will add your name. You never change the
 Before creating a new branch you pull changes from master, make sure you are up to date. Than you repeat the process.
 
 ### George MacMoustasche
+### Jovana Kovacevic
 ### Paloma Oliveira
 Paloma is a proud mother of George, the cat.Her favorite color is yellow.
 
