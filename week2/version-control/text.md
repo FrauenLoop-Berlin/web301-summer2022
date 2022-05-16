@@ -34,7 +34,29 @@ You will do that in 2 stages: first you will add your name. You never change the
 
 Before creating a new branch you pull changes from master, make sure you are up to date. Than you repeat the process.
 
+<<<<<<< HEAD
+
 ### Sevasti
+
+My favourite movie is Spirited away🌸
+
+### George MacMoustasche
+
+### Ira Karpova
+
+Ira really wishes to become a developer in a nearest future.
+
+### Jovana Kovacevic
+
+Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
+
+### Natalie Sakina Mbatha
+
+I love Manchester United football club!!!
+
+### Niloo
+
+> > > > > > > 724c08a6263915d86926e21e54803f9d7702fd0a
 
 ### Paloma Oliveira
 
