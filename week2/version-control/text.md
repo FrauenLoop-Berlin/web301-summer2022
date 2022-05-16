@@ -36,9 +36,11 @@ Before creating a new branch you pull changes from master, make sure you are up 
 
 ### George MacMoustasche
 
+### Ira Karpova
+
 ### Jovana Kovacevic
 
-### Ira Karpova
+Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
 
 ### Natalie Sakina Mbatha
 
