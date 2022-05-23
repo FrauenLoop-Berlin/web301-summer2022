@@ -1,12 +1,15 @@
+/* import the other styles */
 @import 'table.css';
 @import 'button.css';
 
+/* declare variables in the root */
 :root {
   --color-primary: #ff0000;
   --color-secondary: #00ff00;
   --color-tertiary: #0000ff;
 }
 
+/* use variables as var(--name) */
 h1 {
   color: var(--color-primary);
 }
