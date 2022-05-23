@@ -25,6 +25,7 @@
 - [] git branch -D <branch you want to delete> => deletes a branch
 - [] git checkout <branch name> => changes the branch you are working
 
+## Ste-by-step
 ## Exercise: Add your bio in alphabetic order
 
 This is an exercise to learn how to work colaborativelly using git as a version control system.
