@@ -25,7 +25,17 @@
 - [] git branch -D <branch you want to delete> => deletes a branch
 - [] git checkout <branch name> => changes the branch you are working
 
-## Ste-by-step
+## Step-by-step
+1. get newest from main, from main branch: git pull origin main
+2. create a new branch: git checkout -b <new-branch-name>
+3. do the changes
+4. add the changes: git add <file-name>
+5. add commit message: git commit -m "Your nice message"
+6. push changes to remote branch: git push
+7. publish remote branch: git push --set-upstream origin <branch>
+8. go to GitHub page, create PullRequest
+9. Merge pull PullRequest
+10. Delete branch: git branch -D <branch>
 ## Exercise: Add your bio in alphabetic order
 
 This is an exercise to learn how to work colaborativelly using git as a version control system.
