@@ -23,6 +23,7 @@
 - [] git fetch => gives you access to other branches by retrieving the latest meta-data info from the original
 - [] git checkout -b <new branch name> => create a new branch
 - [] git branch -D <branch you want to delete> => deletes a branch
+- [] git checkout <branch name> => changes the branch you are working
 
 ## Exercise: Add your bio in alphabetic order
 
@@ -44,7 +45,7 @@ Jovana likes to ride a skateboard. Her favorite band is Arctic Monkeys.
 
 ### Natalie Sakina Mbatha
 I love Manchester United football club!!!
-  
+
 ### Niloo
 
 ### Paloma Oliveira
