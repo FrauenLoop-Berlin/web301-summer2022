@@ -1,4 +1,6 @@
-let nav = 0;
+import { initButtons } from './buttons.mjs';
+
+self.counter = 0; /* use: window, self or globalThis to create a reusable global varianle */
 
 const calendar = document.getElementById('calendar');
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -7,9 +9,8 @@ function load() {
   const dt = new Date();
 
   /* if loading from back or next, go the the month it is at to keep state */
-  if (nav !== 0) {
-    dt.setMonth(new Date().getMonth() + nav);
-    console.log(dt.setMonth(new Date().getMonth() + nav))
+  if (counter !== 0) {
+    dt.setMonth(new Date().getMonth() + counter);
   }
 
   const day = dt.getDate();
@@ -43,7 +44,7 @@ function load() {
     if (i > paddingDays) {
       daySquare.innerText = i - paddingDays;
 
-      if (i - paddingDays === day && nav === 0) {
+      if (i - paddingDays === day && counter === 0) {
         daySquare.id = 'currentDay';
       } else {
         daySquare.classList.add('padding');
@@ -53,20 +54,7 @@ function load() {
   }
 }
 
-/* iterates over the months using the counter nav to keep track */
-function initButtons() {
-  document.getElementById('nextButton').addEventListener('click', () => {
-    nav++;
-    console.log("Nav plus " + nav)
-    load();
-  });
-
-  document.getElementById('backButton').addEventListener('click', () => {
-    nav--;
-    console.log("Nav minus " + nav)
-    load();
-  });
-}
-
-initButtons();
+initButtons(counter);
 load();
+
+export { load };
