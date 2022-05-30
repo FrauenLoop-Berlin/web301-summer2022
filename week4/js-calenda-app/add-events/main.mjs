@@ -1,6 +1,5 @@
 import { openModal } from './modal.mjs';
 import { initButtons } from './buttons.mjs';
-import { saveEvent } from './events.mjs';
 
 globalThis.counter = 0;
 globalThis.clicked = null; /* the day you clicked */
