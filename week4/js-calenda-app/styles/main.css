@@ -2,11 +2,17 @@
 @import 'event.css';
 
 :root {
-  --main-bg-color: #FFFCFF;
+  --main-bg-color: #fbf9c8;
   --main-text-color: #333;
-  --main-border-color: #ccc;
-  --main-border-radius: 5px;
-  --main-box-shadow: 0 0 5px #ccc;
+  --text-light-color: rgb(246, 244, 244);
+  --main-box-shadow: 0px 0px 3px #CBD4C2;
+  --primary-color: #766cd3;
+  --weekdays-color: #12c9e1;
+  --current-day-color: #91a1d2;
+  --buttons-color: #d36cc0;
+  --save: #00c961;
+  --warning: #e100ce;
+  --event-color: #f48510;
 }
 
 body {
@@ -14,11 +20,13 @@ body {
   margin-top: 50px;
   justify-content: center;
   background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: sans-serif;
 }
 
 #header {
   padding: 10px;
-  color: #d36c6c;
+  color: var(--primary-color);
   font-size: 26px;
   font-family: sans-serif;
   display: flex;
@@ -31,7 +39,7 @@ body {
 #weekdays {
   width: 100%;
   display: flex;
-  color: #247BA0;
+  color: var(--weekdays-color);
 }
 #weekdays div {
   width: 100px;
@@ -51,22 +59,23 @@ body {
   box-sizing: border-box;
   background-color: white;
   margin: 5px;
-  box-shadow: 0px 0px 3px #CBD4C2;
+  box-shadow: var(--main-box-shadow);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .day:hover {
-  background-color: #e8faed;
+  background-color: var(--weekdays-color);
+  opacity: 50%;
 }
 
 .day + #currentDay {
-  background-color:#e8f4fa;
+  background-color:var(--current-day-color);
+  color: var(--text-light-color);
 }
 
 .padding {
-  cursor: default !important;
-  background-color: #FFFCFF !important;
+  cursor: default;
   box-shadow: none !important;
 }
 

@@ -6,17 +6,19 @@ button {
   outline: none;
   padding: 5px;
   border-radius: 5px;
-  color: white;
 }
 
 #header button {
-  background-color:#92a1d1;
+  background-color: var(--buttons-color);
+  color: var(--text-light-color);
 }
 
 #cancelButton, #deleteButton {
-  background-color: #d36c6c;
+  background-color: var(--warning);
+  color: var(--text-light-color);
 }
 
 #saveButton, #closeButton {
-  background-color: #92a1d1;
+  background-color: var(--save);
+  color: var(--text-light-color);
 }
