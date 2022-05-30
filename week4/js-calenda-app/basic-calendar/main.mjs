@@ -10,7 +10,7 @@ function load() {
 
   /* if loading from back or next, go the the month it is at to keep state */
   if (counter !== 0) {
-    dt.setMonth(new Date().getMonth() + counter);
+    dt.setMonth(new Date().getMonth() + counter, 1);
     //console.log(dt.setMonth(new Date().getMonth() + counter))
   }
 
@@ -55,7 +55,7 @@ function load() {
   }
 }
 
-initButtons(counter);
+initButtons();
 load();
 
 export { load };
