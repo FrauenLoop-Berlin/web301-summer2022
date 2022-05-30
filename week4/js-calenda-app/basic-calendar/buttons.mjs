@@ -4,12 +4,13 @@ import { load } from './main.mjs';
 function initButtons() {
   document.getElementById('nextButton').addEventListener('click', () => {
     counter++;
-    //console.log(counter)
+    //console.log('Next ' + counter)
     load();
   });
 
   document.getElementById('backButton').addEventListener('click', () => {
     counter--;
+    //console.log('Prev ' + counter);
     load();
   });
 }

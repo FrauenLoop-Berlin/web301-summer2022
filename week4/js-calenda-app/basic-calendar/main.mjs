@@ -1,6 +1,6 @@
 import { initButtons } from './buttons.mjs';
 
-self.counter = 0; /* use: window, self or globalThis to create a reusable global varianle */
+globalThis.counter = 0;
 
 const calendar = document.getElementById('calendar');
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -11,6 +11,7 @@ function load() {
   /* if loading from back or next, go the the month it is at to keep state */
   if (counter !== 0) {
     dt.setMonth(new Date().getMonth() + counter);
+    //console.log(dt.setMonth(new Date().getMonth() + counter))
   }
 
   const day = dt.getDate();
