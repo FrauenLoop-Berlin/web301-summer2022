@@ -44,23 +44,23 @@ const calendar = document.getElementById('calendar');
 - [] add html button for save event
 - [] add html button for delete event
 - [] create a function to open the modal when user clicks on a day
- - [] know which date user clicked
- - [] iterate over events to find if an event already exist in a day
- - [] if event exist, show "delete modal" (will need to create later)
- - [] if event does not exist in that day, allow user to add an event
- - [] display modal using css style.display = 'block'
- - [] call the function passing the date as an argument
+   - [] know which date user clicked
+   - [] iterate over events to find if an event already exist in a day
+   - [] if event exist, show "delete modal" (will need to create later)
+   - [] if event does not exist in that day, allow user to add an event
+   - [] display modal using css style.display = 'block'
+   - [] call the function passing the date as an argument
 - [] create function to close the modal when user clicks the cancel button
    - [] close modal using css style.display = 'none'
 - [] create function to save event
- - [] if user has typed inside of the event, push it to events array
- - [] save event in localStorage: setItem(), JSON.stringify()
- - [] check if the events are being saved in localStorage: inspector => Application => Local Storage
- - [] close the modal after saving the event
- - [] display the event in the calendar
+   - [] if user has typed inside of the event, push it to events array
+   - [] save event in localStorage: setItem(), JSON.stringify()
+   - [] check if the events are being saved in localStorage: inspector => Application => Local Storage
+   - [] close the modal after saving the event
+   - [] display the event in the calendar
    - [] if there's an event, create a div or element for that day
-[] create "delete modal"
- - [] create HTML  with id or class to create a "delete modal", which will show an existing event and will have 2 buttons: delete and close
+- [] create "delete modal"
+   - [] create HTML  with id or class to create a "delete modal", which will show an existing event and will have 2 buttons: delete and close
  - [] create in HTML button for delete the event
  - [] create function to delete event
    - [] filter the event user need to delete
