@@ -2,20 +2,20 @@ import { openModal } from './modal.mjs';
 import { initButtons } from './buttons.mjs';
 import { saveEvent } from './events.mjs';
 
-self.nav = 0;
-self.clicked = null; /* the day you clicked */
-self.events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
+globalThis.counter = 0;
+globalThis.clicked = null; /* the day you clicked */
+globalThis.events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
 
 const calendar = document.getElementById('calendar');
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
 
 function load() {
   const dt = new Date();
 
   /* if loading from back or next, go the the month it is at to keep state */
-  if (nav !== 0) {
-    dt.setMonth(new Date().getMonth() + nav);
+  if (counter !== 0) {
+    dt.setMonth(new Date().getMonth() + counter);
+    //console.log(dt.setMonth(new Date().getMonth() + counter))
   }
 
   const day = dt.getDate();
@@ -42,7 +42,7 @@ function load() {
   calendar.innerHTML = ''; /* clears calendar state */
 
   /* renders the month view */
-  for(let i = 1; i <= paddingDays + daysInMonth; i++) {
+  for (let i = 1; i <= paddingDays + daysInMonth; i++) {
     const daySquare = document.createElement('div');
     daySquare.classList.add('day');
 
@@ -52,7 +52,7 @@ function load() {
       daySquare.innerText = i - paddingDays;
       const eventForDay = events.find(e => e.date === dayString);
 
-      if (i - paddingDays === day && nav === 0) {
+      if (i - paddingDays === day && counter === 0) {
         daySquare.id = 'currentDay';
       }
 
@@ -72,7 +72,7 @@ function load() {
   }
 }
 
-initButtons();
+initButtons(counter);
 load();
 
-export { load, saveEvent };
+export { load };
