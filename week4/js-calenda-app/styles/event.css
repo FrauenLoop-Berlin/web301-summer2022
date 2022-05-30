@@ -1,8 +1,8 @@
 .event {
   font-size: 10px;
   padding: 3px;
-  background-color: #58bae4;
-  color: white;
+  background-color: var(--event-color);
+  color: var(--text-light-color);
   border-radius: 5px;
   max-height: 55px;
   overflow: hidden;
@@ -13,13 +13,12 @@
   z-index: 20;
   padding: 25px;
   background-color: #e8f4fa;
-  box-shadow: 0px 0px 3px black;
+  box-shadow: var(--main-box-shadow);
   border-radius: 5px;
   width: 350px;
   top: 100px;
   left: calc(50% - 175px);
   position: absolute;
-  font-family: sans-serif;
 }
 
 #eventTitleInput {
@@ -30,7 +29,7 @@
   border-radius: 3px;
   outline: none;
   border: none;
-  box-shadow: 0px 0px 3px gray;
+  box-shadow: var(--main-box-shadow);
 }
 
 #eventTitleInput.error {

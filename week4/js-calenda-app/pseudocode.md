@@ -1,6 +1,5 @@
 <!-- This code is based on this tutorial: https://www.youtube.com/watch?v=m9OSBJaQTlM -->
-If you would like to replicate on your own, with a little help of instructions,
-follow a step-by-step pseudocode
+If you would like to replicate on your own, with a little help of instructions, follow a step-by-step pseudocode
 
 ## Basic App structure
 [] create a js file
@@ -38,4 +37,16 @@ const calendar = document.getElementById('calendar');
 
 ## Creating extra functionalities: adding events to calendar
 [] create an event listener for when a user clicks on a day
+[]
 
+## Responsivity
+[] make sure your app is responsible, work in the styles to improve it
+
+## Adding tests
+[] add tests to ensure the quality of your app
+[] add accessibility test
+
+## Documentation & deployment: your portfolio
+[] create a readme explaining the tech stack used. Add a gif to explain what the app does
+[] deploy it to GitHub pages to make it shareable
+[] use your project to allow a recruiter to see how you organize yourself and break the the problem into small pieces
