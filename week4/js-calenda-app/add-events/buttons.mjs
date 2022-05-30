@@ -5,14 +5,14 @@ import { saveEvent, deleteEvent } from './events.mjs';
 
 function initButtons() {
   document.getElementById('nextButton').addEventListener('click', () => {
-    nav++;
-    // console.log("Nav plus " + nav)
+    counter++;
+    //console.log('Next ' + counter)
     load();
   });
 
   document.getElementById('backButton').addEventListener('click', () => {
-    nav--;
-    // console.log("Nav minus " + nav)
+    counter--;
+    //console.log('Prev ' + counter);
     load();
   });
 
