@@ -1,5 +1,6 @@
 @import 'button.css';
 @import 'event.css';
+@import 'quote.css';
 
 :root {
   --main-bg-color: #fbf9c8;

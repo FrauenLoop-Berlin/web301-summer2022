@@ -1,5 +1,5 @@
 <!-- This code is based on this tutorial: https://www.youtube.com/watch?v=m9OSBJaQTlM -->
-If you would like to replicate on your own, with a little help of instructions, follow a step-by-step pseudocode
+If you would like to replicate on your own, with a little help of instructions, follow a step-by-step 'pseudocode'
 
 ## Basic App structure
 - [ ] create a js file

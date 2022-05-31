@@ -1,0 +1,12 @@
+.quote-container {
+  color: var(--warning);
+  min-width:40%;
+  margin-left: 50%;
+  margin-right: 16px;
+  text-align: right;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
