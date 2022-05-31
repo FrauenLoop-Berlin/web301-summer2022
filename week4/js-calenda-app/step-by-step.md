@@ -90,6 +90,6 @@ kanban to allow a recruiter to see how you organize yourself and break the the p
 - [ ] add more than one event per day
 - [ ] edit event
 - [ ] instead of localStorage, use a database
-- [ ] add an API: add Quote to the calender: https://quotes.rest/
+- [ ] add an API: add Quote to the calender (this [tutorial](https://dev.to/codemediaweb/random-quote-generator-using-javascript-and-api-20ce) can be helpful)
 - [ ] instead of modal, use a sidebar to show the day, where you get a different quote per day
 - [ ] improve this code! is there repeated code you can astract? Can you name things better? Can you change the logic to improve it?
